@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>page wth required data</title>
+</head>
+<body>
+<form action="/submit" method="post">
+  <div>
+    <label for="name">
+      Введите имя:
+    </label>
+    <input type="text" id="name" required/>
+  </div>
+
+  <div>
+    <label for="address">
+      Введите адрес:
+    </label>
+    <input type="text" id="address" required/>
+  </div>
+
+  <div>
+    <label for="agreement">
+      Даю согласие на обработку персональных данных:
+    </label>
+    <input type="checkbox" id="agreement" required/>
+  </div>
+
+  <button type="submit">Отправить</button>
+  <button type="reset">Очистить форму</button>
+
+</form>
+
+</body>
+</html>

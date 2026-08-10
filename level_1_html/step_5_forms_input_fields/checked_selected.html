@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>page with a selected choice</title>
+</head>
+<body>
+<form action="/submit" method="post">
+  <div>
+    <label for="city">
+      Укажите ваш город:
+    </label>
+    <select id="city">
+      <option value="msc" selected>Москва</option>
+      <option value="spb">Санкт-Петербург</option>
+
+    </select>
+
+  </div>
+
+  <div>
+    <label for="news">
+      Подписаться на рассылку
+    </label>
+    <input type="checkbox" id="news" checked />
+  </div>
+
+  <button type="submit">Отправить</button>
+  <button type="reset">Очистить форму</button>
+
+
+</form>
+
+</body>
+</html>
