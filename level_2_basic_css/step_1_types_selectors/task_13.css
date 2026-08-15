@@ -1,0 +1,16 @@
+.product-card h2{
+    color: #333;
+}
+
+.product-card p{
+    color: #666;
+}
+
+.price {
+    color: green;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: darkblue;
+}
