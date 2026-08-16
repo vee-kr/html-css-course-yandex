@@ -1,0 +1,9 @@
+p {
+    text-align: center;
+    <!-- "justify" for the exact same width  -->
+}
+
+body {
+    font-family: "Open Sans", Arial, sans-serif;
+    <!-- желаемый, популярный запасной и целое семейство -->
+}

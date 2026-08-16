@@ -1,0 +1,19 @@
+/*<link*/
+/*href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"*/
+/*rel="stylesheet"*/
+/*/>*/
+
+<!-- for html -->
+
+ body {
+    font-family: "Bebas Neue", sans-serif;
+ }
+
+ @font-face {
+  font-family: "MyFont";
+  src: url("fonts/MyFont.woff2") format("woff2");  <!-- шрифт в виде файла в папке fonts -->
+}
+
+body {
+  font-family: "MyFont", sans-serif;
+}
