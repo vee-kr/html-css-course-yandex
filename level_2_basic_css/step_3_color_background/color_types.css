@@ -1,0 +1,15 @@
+p {
+    color: indianred;
+}
+
+a {
+    color: #9C2113;
+}
+
+.name {
+    color: rgba(189, 79, 108, 0.8)   /* 4th - transparency */
+}
+
+div {
+    background-color: crimson;
+}

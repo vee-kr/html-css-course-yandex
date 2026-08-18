@@ -1,0 +1,6 @@
+body {
+    background-image: url("background.jpg"); /* path in brackets */
+    background-repeat: no-repeat; /* without repeat */
+/*    background-size: cover;   заполняет всё, но может обрезать */
+    background-size: contain; /* вмещает целиком, но может оставить пустое пространство */
+}
