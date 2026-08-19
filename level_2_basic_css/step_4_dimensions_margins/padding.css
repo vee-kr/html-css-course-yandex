@@ -1,0 +1,11 @@
+.card {
+    /* пространство между содержимым и границей */
+
+    padding: 16px; /* 10px 20px ; (вверх-низ, лево-право)   10px 20px 30px 40px; (вверх-право-низ-лево) */
+/*      padding-top: 10px;
+        padding-right: 20px;
+        padding-bottom: 30px;
+        padding-left: 40px;
+
+ */
+}

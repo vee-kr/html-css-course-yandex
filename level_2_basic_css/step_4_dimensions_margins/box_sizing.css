@@ -1,0 +1,3 @@
+* {
+    box-sizing: border-box; /* с учетом padding and border, без учета - content-box (only content) */
+}

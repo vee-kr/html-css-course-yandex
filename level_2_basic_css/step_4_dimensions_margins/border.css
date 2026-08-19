@@ -1,0 +1,13 @@
+.card {
+    border: 1px solid black;
+    /* solid — сплошная
+        dashed — пунктир
+        dotted — точечки
+        none — убрать границу
+
+     */
+
+    border-top: 2px dashed red;
+    border-left: none;
+
+}

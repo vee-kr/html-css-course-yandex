@@ -1,0 +1,9 @@
+.interactive-box {
+    background-color: whitesmoke;
+    padding: 20px;
+    border: 2px solid transparent;
+}
+
+.interactive-box :hover {
+    border-color: dodgerblue;
+}
