@@ -1,0 +1,13 @@
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /*  0 — сдвиг по горизонтали (насколько тень выступает из-под блока)
+        4px — сдвиг по вертикали
+        8px — размытие
+        rgba(...) — цвет с прозрачностью
+
+     */
+    
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+}
