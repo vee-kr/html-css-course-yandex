@@ -1,0 +1,21 @@
+/*
+::first-letter	Стилизация первой буквы
+::first-line	Стилизация первой строки
+::before	Добавляет контент перед
+::after	Добавляет контент после
+::marker 	Стилизация маркера в списке
+::placeholder	Стилизация текста-подсказки в input
+::selection	Стилизация выделенного текста
+ */
+
+.card::before {
+  content: "★";
+  color: red;
+  font-size: 20px;
+}
+
+.card::after {
+  content: "Читать далее";
+  font-size: 12px;
+  color: gray;
+}

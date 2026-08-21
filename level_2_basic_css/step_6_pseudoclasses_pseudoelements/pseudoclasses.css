@@ -1,0 +1,27 @@
+/*  :hover	                        при наведении
+    :focus	                        при фокусе (ввод в поле)
+    :active	                        при нажатии
+    :visited	                    посещённая ссылка
+    :first-child / :last-child	    "первый / последний ребёнок"
+    :nth-child(2)	                второй элемент в списке (вместо 2 можно подставить нужное число)
+ */
+
+/* outline: none;   убрать стандартную обводку */
+
+input:focus {
+  outline: 2px solid blue;
+}
+
+button {
+      background-color: #4caf50; /* зелёная */
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s; /* плавное изменение цвета */
+}
+
+button :hover {
+    background-color: #45a049; /* чуть темнее при наведении */
+}

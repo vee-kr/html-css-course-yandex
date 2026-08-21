@@ -1,0 +1,6 @@
+li :first-child {
+    font-weight: bold;
+}
+li :last-child {
+    text-decoration: underline;
+}

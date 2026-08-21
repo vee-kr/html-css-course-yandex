@@ -1,0 +1,12 @@
+h2 {
+    text-align: center;
+    color: darkslateblue;
+}
+
+h2 ::before {
+    content: "« ";
+}
+
+h2 ::after {
+    content: " »"
+}

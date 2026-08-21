@@ -1,0 +1,9 @@
+input {
+    border: 2px solid lightgray;
+    padding: 8px;
+}
+
+input :focus {
+    outline: none;
+    border-color: mediumseagreen;
+}
