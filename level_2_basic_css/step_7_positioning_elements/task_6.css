@@ -1,0 +1,19 @@
+.tooltip-container {
+    position: relative;
+}
+.tooltip-text {
+    visibility: hidden;
+    position: absolute;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+    width: 160px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.tooltip-container:hover .tooltip-text {
+    visibility: visible;
+
+}

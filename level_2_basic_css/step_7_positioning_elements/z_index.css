@@ -1,0 +1,12 @@
+/*  z-index управляет «слоями» элементов. Чем больше число, тем выше элемент поднимается над остальными.  */
+
+.card {
+  position: relative;
+  z-index: 2;
+}
+
+.popup {
+  position: absolute;
+  z-index: 5;
+}
+    
