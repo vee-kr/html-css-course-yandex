@@ -1,0 +1,7 @@
+.product-card {
+    display: flex;
+    flex-direction: column;
+}
+.product-info {
+    flex-grow: 1;
+}
