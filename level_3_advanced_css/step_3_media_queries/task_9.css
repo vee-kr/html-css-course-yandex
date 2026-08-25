@@ -1,0 +1,20 @@
+.product-card {
+    border: 1px solid gray;
+}
+.product-image {
+    max-width: 100%;
+    height: auto;
+}
+.product-details {
+    padding: 15px;
+}
+@media (min-width: 768px) {
+    .product-card {
+        display: flex;
+        align-items: center;
+    }
+    .product-image {
+        max-width: 200px;
+    }
+    
+}

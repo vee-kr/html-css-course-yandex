@@ -1,0 +1,27 @@
+@media (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+/* Для ноутбуков и мониторов */
+@media (min-width: 1024px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+/* Для планшетов */
+@media (max-width: 1024px) and (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+/* Для мобильных устройств */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+    background-color: lightgray;
+  }
+}
