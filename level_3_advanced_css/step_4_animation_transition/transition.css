@@ -1,0 +1,29 @@
+/*
+    transition: [свойства] [время] [тип функции времени] [задержка];
+
+    Свойства — это меняющиеся CSS-свойства (например, background-color, width, opacity)
+    Время — продолжительность анимации (например, 0.5s)
+    Тип функции времени — тип ускорения или замедления анимации (например, ease, linear, ease-in-out)
+    Задержка — время перед началом анимации
+ */
+
+
+.button {
+  background-color: blue;
+  transition: background-color 0.5s ease; /* Плавный переход для изменения фона */
+}
+
+.button:hover {
+  background-color: red; /* Цвет фона изменится на красный при наведении */
+}
+
+
+.button {
+  transition: all 0.5s;
+}
+
+.button:hover {
+  background-color: red;
+  width: 200px;
+  height: 60px;
+}

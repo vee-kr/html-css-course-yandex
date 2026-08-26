@@ -1,0 +1,16 @@
+@keyframes fade-in-up{
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.card {
+    animation-name: fade-in-up;
+    animation-duration: 0.8s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+}

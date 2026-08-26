@@ -1,0 +1,8 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  transform: rotate(45deg); /* Поворот элемента на 45 градусов */
+  transform: scale(1.5); /* Увеличение элемента в 1.5 раза */
+  transform: translateX(100px); /* Сдвиг элемента на 100px вправо */
+}

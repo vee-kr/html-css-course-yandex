@@ -1,0 +1,7 @@
+button {
+    background-color: steelblue;
+    transition: background-color 0.4s;
+}
+button:hover {
+    background-color: lightsteelblue;
+}

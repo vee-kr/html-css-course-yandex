@@ -1,0 +1,29 @@
+@keyframes имя-анимации {
+  from {
+    /* начальное состояние */
+  }
+  to {
+    /* конечное состояние */
+  }
+}
+
+элемент {
+  animation: имя-анимации [время] [тип функции времени] [количество повторов]
+    [задержка];
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  animation: slideIn 1s ease-out; /* Анимация с именем 'slideIn', длительность 1 секунда */
+}
