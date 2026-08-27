@@ -1,0 +1,27 @@
+                                    /* HTML */
+/*<head>*/
+/*  <link*/
+/*    href="https://fonts.googleapis.com/icon?family=Material+Icons"*/
+/*    rel="stylesheet"*/
+/*  />*/
+/*</head>*/
+
+/*<i class="material-icons custom-icon">home</i>*/
+
+                                /* CSS */
+
+.material-icons {
+  font-size: 48px; /* Обрати внимание: размер иконки указываем через font-size */
+  color: #3498db;
+}
+
+.custom-icon {
+  color: #e74c3c; /* Задаём другой цвет */
+  font-size: 72px; /* Увеличиваем размер */
+  transition: transform 0.3s ease;
+}
+
+.custom-icon:hover {
+  transform: rotate(20deg); /* Поворот при наведении */
+}
+
