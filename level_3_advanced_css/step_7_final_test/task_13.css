@@ -1,0 +1,19 @@
+.gallery img {
+    max-width: 100%;
+    display: block;
+}
+.gallery {
+    display: grid;
+    gap: 10px;
+}
+@media (min-width: 600px) {
+    .gallery {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width: 900px) {
+    .gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}
